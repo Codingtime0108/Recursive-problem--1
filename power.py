@@ -8,6 +8,6 @@ def checkIfPower(n):
         return checkIfPower(n/4)
     return False
 if(checkIfPower(n)):
-    print("Power of 4:)")
+    print("Power of 4")
 else:
     print("Not power of 4!")
